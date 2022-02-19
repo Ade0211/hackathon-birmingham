@@ -1,8 +1,8 @@
-import React from "react";
-import './App.css';
-// import AppRouter from "./AppRouter";
-// import Home from "./Home";
-import Carousel from "./Component/Carousel"
+// import logo from './logo.svg';
+import "./App.css";
+import Home from "./Components/Home";
+import "./Components/Home.css";
+// import Footer from "./Components/Footer";
 
 function App() {
   // const [infoData, setInfoData] = useState([]);
@@ -22,8 +22,10 @@ function App() {
   return (
 
     <div className="App">
-
-      <Carousel />
+      {/* <h1>ESOL Hakathon</h1> */}
+      {/* <header>Take Your ESOL Steps Forward</header> */}
+      <Home />
+      {/* <Footer /> */}
     </div>
 
   )
